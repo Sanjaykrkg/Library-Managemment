@@ -1,0 +1,108 @@
+body {
+    background-color: #f5f8ff;
+  }
+  .heading{
+    display: flex;
+    text-align: center;
+    border: 1px solid;
+    width: fit-content;
+  }
+  .top{
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: auto;
+  }
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #search-container {
+    margin: 1em 0;
+  }
+  #search-container input {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+  }
+  #search-container input:focus {
+    border-bottom-color: #6759ff;
+  }
+  #search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #6759ff;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+  }
+  .active {
+    background-color: #6759ff;
+    color: #ffffff;
+  }
+  #products {
+    display: table-row;
+    justify-content: space-between;
+  } 
+  .container {
+    
+    display: flex;
+    color: #110f29;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .container h5 {
+    font-weight: 500;
+  }
+  .hide {
+    display: none;
+  }
+  .title1{
+    padding-left: 30px;
+    padding-right: 20px;
+    height: fit-content;
+    width: 300px;
+  }
+  .author{
+    height: fit-content;
+    width: 150px;
+  }
+  .description{
+    padding-right:10px;
+    height: fit-content;
+    width: 300px;
+  }
+  .date1{
+    height: fit-content;
+    width: 150px;
+  }
+  .card1{
+    display: flex;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    border: 1px solid;
+  }
+  .image-container{
+    width: 100px;
+    height: 140px;
+  }
+  .doc{
+    padding: 20px;
+  }
+  .count{
+    width: 88px;
+    height: fit-content;
+  }
+  .count1{
+    width: 100px;
+    height: fit-content;
+  }
+  @media screen and (max-width: 720px) {
+    #products {
+      grid-template-columns: auto auto;
+      grid-column-gap: 1em;
+    }
+  }
